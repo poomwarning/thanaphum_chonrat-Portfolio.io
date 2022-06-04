@@ -960,6 +960,8 @@ p {
  
 }
 
+
+
 .single_service .service_content  .sketchfab-embed-wrapper iframe 
 {
   display: block;
@@ -1020,6 +1022,12 @@ p {
         height: 60px;
         line-height: 60px;
         font-size: 36px; } }
+
+.single_service .service_content a {
+  color: #00A78E;
+  
+}
+
   .single_service .service_content {
     margin-top: 25px; }
     .single_service .service_content .service_title a {
@@ -1052,9 +1060,14 @@ p {
         }
     .single_service:hover .service_content .service_title a {
       color: #fff; }
-    .single_service:hover .service_content p {
+    .single_service:hover .service_content p{
       color: #fff; }
-    
+      .single_service:hover .service_content a{
+        color: rgb(0, 0, 0); } 
+      .single_service:hover .service_content a:hover{
+        color: rgb(255, 255, 255); }
+
+     
 
 /*===========================
    10.CALL TO ACTION css 
