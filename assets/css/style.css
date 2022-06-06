@@ -954,7 +954,11 @@ p {
 
 .single_service .service_content .imgdiv img
 {
-  width: 50%;
+  display: block;
+  max-width: 50%;
+  max-height: auto;
+  width: auto;
+  height: auto;
   padding: 10px;
   border-radius: 25px;
  
