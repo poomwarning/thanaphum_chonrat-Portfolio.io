@@ -968,6 +968,18 @@ p {
   border-radius: 25px;
  
 }
+.single_service .service_content img
+{
+  display: block;
+ 
+  max-height: auto;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 0 auto;
+ 
+}
 
 
 
